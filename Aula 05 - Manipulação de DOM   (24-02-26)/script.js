@@ -28,3 +28,21 @@ let caixas = document.getElementsByClassName("box")
 console.log(titulo)
 console.log(caixas)
 console.log(imagem)
+
+//=====================================================//
+// Função para alterar o conteúdo                     //
+//===================================================//
+
+function alterar(){
+    //Alterando os textos
+    titulo.innerText = "Novo Título" //.innerText serve para alterar texto
+    subtitulo.innerText = "Subtítulo alterado com sucesso!" 
+    paragrafo.innerText = "O texto do parágrafo foi modificado"
+
+    //alterando elementos da classe
+    caixas[0].innerText = "Primeiro parágrafo alterado (Classe)" //Primeiro elemento 
+    caixas[1].innerText = "Segundo parágrafo alterado (Classe)" //Segundo elemento 
+
+    //Alterando a imagem
+    imagem.src ="https://www.devmedia.com.br/arquivos/Artigos/43033/fig6.png"
+}
