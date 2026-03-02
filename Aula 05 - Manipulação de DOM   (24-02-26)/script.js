@@ -31,7 +31,7 @@ console.log(imagem)
 
 //=====================================================//
 // Função para alterar o conteúdo                     //
-//===================================================//
+
 
 function alterar(){
     //Alterando os textos
@@ -46,3 +46,4 @@ function alterar(){
     //Alterando a imagem
     imagem.src ="https://www.devmedia.com.br/arquivos/Artigos/43033/fig6.png"
 }
+//===================================================//
