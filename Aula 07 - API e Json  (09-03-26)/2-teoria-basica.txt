@@ -1,0 +1,60 @@
+# HTTP  e Status Codes
+
+Cliente  Servidor
+Comunicação usando **HTTP**
+
+- Método (ação)
+- Status Code (resposta)
+
+# Métodos HTTP
+GET - Buscar
+POST - Criar
+PUT - Atualizar tudo
+PATCH - Atualizar parte
+DELETE - Remover
+
+---
+
+# Analogia Restaurante
+GET - Olhar cardápio
+POST - Fazer pedido
+PUT - Trocar prato inteiro
+PATCH - Pedir mais sal
+DELETE - Devolver Prato
+
+---
+
+# Status Codes
+
+2xx - Sucesso
+3xx - Redirencionamento
+4xx - Erro do cliente
+5xx - Erro do servidor
+
+---
+
+# Principais Status
+
+200 - OK
+201 - Criado
+400 - Requisição inválida
+401 - Não autorizado
+403 - Proibido
+404 - Não encontrado
+
+---
+
+# Erros do Servidor
+
+500 - Erro Interno
+503 - Serviço indisponível
+
+---
+
+# Analogia Pizza
+200 - Aqui está sua pizza 🍕
+401 - Só entregamos para clientes
+404 - Não temos essa pizza
+429 - Muitos Pedidos
+500 - O forno queimou
+
