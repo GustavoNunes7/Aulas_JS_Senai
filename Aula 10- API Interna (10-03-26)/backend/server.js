@@ -23,7 +23,6 @@ const path = require("path");
 
 // Importar o arquivo JSON que contém as raças e fotos
 const cachorros = require("./data/dogs.json");
-const { log } = require("console");
 
 // Criar a aplicação Express
 const app = express();
